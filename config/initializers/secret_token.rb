@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Bricolo::Application.config.secret_token = '4f67faecba6004e1b47ffa43c308b7e58cc1a4dda8b8b24077e7097e668e381dbd478944e11aeaf52d9e04ee27ec980813fece2ad49ab68d5d4e56299aba0885'
+Bricolo::Application.config.secret_token = '765b28488723bac113dd443240288317fcb45ff336a7d88e57b64bf7bb95b5559b145b9b3bc7ce8c7385e126013790b0f0a13b4e524a3cf64c2d4ee9a35736f0'
