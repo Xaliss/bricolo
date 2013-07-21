@@ -1,5 +1,5 @@
 require 'spec_helper'
-
+ 
 describe PagesController do
 
   describe "GET 'home'" do
@@ -22,6 +22,10 @@ describe PagesController do
       response.should be_success
     end
   end
+
+
+
+
 
 
 end

@@ -1,5 +1,5 @@
 require 'spec_helper'
-
+ 
 describe PagesController do
 
   describe "GET 'home'" do
@@ -15,5 +15,19 @@ describe PagesController do
       response.should be_success
     end
   end
+
+  describe "GET 'about'" do
+    it "should be successful" do
+      get 'about'
+      response.should be_success
+    end
+  end
+
+ describe "Il recoit 3 caracteres" do
+ 
+  end
+
+
+
 
 end
