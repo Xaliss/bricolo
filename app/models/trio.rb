@@ -1,15 +1,20 @@
-class Trio < ActiveRecord::Base
-	attr_accessor   :nom , :retour
-def initialize(blaze = 12 , retour=[])
-	@nom = blaze
-	retour << ["sss", "456","ee"]
-	@retour = retour
+class Regional < ActiveRecord::Base
+	attr_accessor   :station, :lat, :lgt
+
+def initialize(xstation = "Cash" , lat="", lgt="")
+	@hth = 5
 end
-def cnom
-     12
+
+def station
+      @hth 
+
 end 
-
-
+def lat
+      "47"
+end 
+def lgt
+      "45"
+end 
 
   end 
 

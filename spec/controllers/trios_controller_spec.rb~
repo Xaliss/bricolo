@@ -1,0 +1,15 @@
+require 'spec_helper'
+require 'trio'
+render_views
+	
+
+describe 'Trio' do
+	 
+  	xit "Receives 3 caracteres" do
+	Trio.new.("Pappy zz").cnom.should eql(3)
+	end
+	xit "Doit valoir 10"do
+	x.should be_eql(9)
+	end
+
+end
